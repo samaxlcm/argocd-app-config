@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: nanajanashia/argocd-app:1.2
+          image: samleung/hello-world:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 8085
           resources:
             limits:
               cpu: 500m
