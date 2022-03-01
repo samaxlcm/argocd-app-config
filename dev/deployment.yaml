@@ -18,7 +18,7 @@ spec:
           # image: samleung/hello-world:latest
           image: hcwxd/blue-whale
           ports:
-            # - containerPort: 8085
+            # - containerPort: 8085 # samleung/hello-world:latest
             - containerPort: 3000
           resources:
             limits:

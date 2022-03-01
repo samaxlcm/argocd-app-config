@@ -9,4 +9,5 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 8085
+    # targetPort: 8085 # samleung/hello-world:latest
+    targetPort: 3000
