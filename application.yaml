@@ -9,7 +9,8 @@ spec:
 
     source:
         repoURL: https://github.com/samaxlcm/argocd-app-config.git
-        targetRevision: HEAD
+        # targetRevision: HEAD
+        targetRevision: master
         path: dev
         # helm:
         #     valueFiles:
