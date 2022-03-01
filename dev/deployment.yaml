@@ -15,9 +15,11 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: samleung/hello-world:latest
+          # image: samleung/hello-world:latest
+          image: hcwxd/blue-whale
           ports:
-            - containerPort: 8085
+            # - containerPort: 8085
+            - containerPort: 3000
           resources:
             limits:
               cpu: 50m
