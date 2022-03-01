@@ -11,6 +11,10 @@ spec:
         repoURL: https://github.com/samaxlcm/argocd-app-config.git
         targetRevision: HEAD
         path: dev
+        # helm:
+        #     valueFiles:
+        #         - values.yaml
+
     destination:
         server: https://kubernetes.default.svc
         namespace: myapp
